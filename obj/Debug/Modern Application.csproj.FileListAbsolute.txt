@@ -1,0 +1,20 @@
+D:\UserData\Desktop\New folder\Modern Application\bin\Debug\Modern Application.exe.config
+D:\UserData\Desktop\New folder\Modern Application\bin\Debug\Modern Application.exe
+D:\UserData\Desktop\New folder\Modern Application\bin\Debug\Modern Application.pdb
+D:\UserData\Desktop\New folder\Modern Application\obj\Debug\Modern Application.csprojAssemblyReference.cache
+D:\UserData\Desktop\New folder\Modern Application\obj\Debug\Modern_Application.MainPage.resources
+D:\UserData\Desktop\New folder\Modern Application\obj\Debug\Modern_Application.Properties.Resources.resources
+D:\UserData\Desktop\New folder\Modern Application\obj\Debug\Modern Application.csproj.GenerateResource.cache
+D:\UserData\Desktop\New folder\Modern Application\obj\Debug\Modern Application.csproj.CoreCompileInputs.cache
+D:\UserData\Desktop\New folder\Modern Application\obj\Debug\Modern Application.exe
+D:\UserData\Desktop\New folder\Modern Application\obj\Debug\Modern Application.pdb
+D:\UserData\Desktop\ \New folder\Modern Application\bin\Debug\Modern Application.exe.config
+D:\UserData\Desktop\ \New folder\Modern Application\bin\Debug\Modern Application.exe
+D:\UserData\Desktop\ \New folder\Modern Application\bin\Debug\Modern Application.pdb
+D:\UserData\Desktop\ \New folder\Modern Application\obj\Debug\Modern Application.csprojAssemblyReference.cache
+D:\UserData\Desktop\ \New folder\Modern Application\obj\Debug\Modern_Application.MainPage.resources
+D:\UserData\Desktop\ \New folder\Modern Application\obj\Debug\Modern_Application.Properties.Resources.resources
+D:\UserData\Desktop\ \New folder\Modern Application\obj\Debug\Modern Application.csproj.GenerateResource.cache
+D:\UserData\Desktop\ \New folder\Modern Application\obj\Debug\Modern Application.csproj.CoreCompileInputs.cache
+D:\UserData\Desktop\ \New folder\Modern Application\obj\Debug\Modern Application.exe
+D:\UserData\Desktop\ \New folder\Modern Application\obj\Debug\Modern Application.pdb
