@@ -14,7 +14,6 @@ Light mode :
 
 ![Light Mode](https://user-images.githubusercontent.com/72354122/119581801-f74d9680-bdcb-11eb-96f6-73416be6b5fa.png)
 
-Accent colors
 Red
 
 ![Red](https://user-images.githubusercontent.com/72354122/119581805-f9175a00-bdcb-11eb-937b-f78c859be170.png)
