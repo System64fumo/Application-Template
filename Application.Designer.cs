@@ -37,6 +37,13 @@ namespace Modern_Application
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Titlebar
@@ -49,7 +56,7 @@ namespace Modern_Application
             this.Titlebar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Titlebar.Location = new System.Drawing.Point(0, 0);
             this.Titlebar.Name = "Titlebar";
-            this.Titlebar.Size = new System.Drawing.Size(400, 30);
+            this.Titlebar.Size = new System.Drawing.Size(500, 30);
             this.Titlebar.TabIndex = 0;
             this.Titlebar.Text = "          Title";
             this.Titlebar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -67,7 +74,7 @@ namespace Modern_Application
             this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitButton.ForeColor = System.Drawing.Color.White;
-            this.ExitButton.Location = new System.Drawing.Point(355, 0);
+            this.ExitButton.Location = new System.Drawing.Point(455, 0);
             this.ExitButton.Margin = new System.Windows.Forms.Padding(0);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(45, 30);
@@ -87,7 +94,7 @@ namespace Modern_Application
             this.MinimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MinimizeButton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MinimizeButton.ForeColor = System.Drawing.Color.White;
-            this.MinimizeButton.Location = new System.Drawing.Point(310, 0);
+            this.MinimizeButton.Location = new System.Drawing.Point(410, 0);
             this.MinimizeButton.Margin = new System.Windows.Forms.Padding(0);
             this.MinimizeButton.Name = "MinimizeButton";
             this.MinimizeButton.Size = new System.Drawing.Size(45, 30);
@@ -100,7 +107,7 @@ namespace Modern_Application
             // 
             this.Label.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label.ForeColor = System.Drawing.Color.White;
-            this.Label.Location = new System.Drawing.Point(266, 40);
+            this.Label.Location = new System.Drawing.Point(263, 40);
             this.Label.Name = "Label";
             this.Label.Size = new System.Drawing.Size(124, 30);
             this.Label.TabIndex = 3;
@@ -114,7 +121,7 @@ namespace Modern_Application
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 40);
+            this.button1.Location = new System.Drawing.Point(10, 40);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 30);
@@ -130,7 +137,7 @@ namespace Modern_Application
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(138, 40);
+            this.button2.Location = new System.Drawing.Point(135, 40);
             this.button2.Margin = new System.Windows.Forms.Padding(0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 30);
@@ -142,18 +149,77 @@ namespace Modern_Application
             // Panel1
             // 
             this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(27)))));
-            this.Panel1.Location = new System.Drawing.Point(13, 80);
+            this.Panel1.Controls.Add(this.panel7);
+            this.Panel1.Controls.Add(this.panel4);
+            this.Panel1.Controls.Add(this.panel5);
+            this.Panel1.Controls.Add(this.panel6);
+            this.Panel1.Controls.Add(this.panel3);
+            this.Panel1.Controls.Add(this.panel2);
+            this.Panel1.Location = new System.Drawing.Point(10, 80);
             this.Panel1.Margin = new System.Windows.Forms.Padding(0);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(377, 150);
+            this.Panel1.Size = new System.Drawing.Size(480, 210);
             this.Panel1.TabIndex = 7;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(75)))));
+            this.panel2.Location = new System.Drawing.Point(0, 190);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(80, 20);
+            this.panel2.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(65)))));
+            this.panel3.Location = new System.Drawing.Point(80, 190);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(80, 20);
+            this.panel3.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(55)))));
+            this.panel4.Location = new System.Drawing.Point(160, 190);
+            this.panel4.Margin = new System.Windows.Forms.Padding(0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(80, 20);
+            this.panel4.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(35)))));
+            this.panel5.Location = new System.Drawing.Point(240, 190);
+            this.panel5.Margin = new System.Windows.Forms.Padding(0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(80, 20);
+            this.panel5.TabIndex = 1;
+            // 
+            // panel6
+            // 
+            this.panel6.Location = new System.Drawing.Point(320, 190);
+            this.panel6.Margin = new System.Windows.Forms.Padding(0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(80, 20);
+            this.panel6.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel7.Location = new System.Drawing.Point(400, 190);
+            this.panel7.Margin = new System.Windows.Forms.Padding(0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(80, 20);
+            this.panel7.TabIndex = 2;
             // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(400, 240);
+            this.ClientSize = new System.Drawing.Size(500, 300);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -166,6 +232,7 @@ namespace Modern_Application
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Program";
             this.Load += new System.EventHandler(this.MainPage_Load);
+            this.Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -179,6 +246,12 @@ namespace Modern_Application
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel Panel1;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel7;
     }
 }
 
