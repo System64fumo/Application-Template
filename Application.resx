@@ -120,41 +120,42 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Titlebar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
+        g/7PWbToV6/+cfpcIFL/AAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>How to get started :
+1 : Pick a color from the colors above
+2 : Set that color as a background color to a Panel/Labe//Button (in the designer)
+3 : The app will automatically set its theme accordingly if Theme.Set(this); is present
+4 : Labels will automatically be white or dark if they are initially set to white
+
+How to manually set something's Color :
+1 : Pick a color from the colors above (Example Accent)
+2 : panel1.backcolor = Theme.Accent;</value>
   </data>
 </root>

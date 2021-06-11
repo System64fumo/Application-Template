@@ -19,21 +19,7 @@ namespace Modern_Application
         private void MinimizeButton_Click(object sender, EventArgs e) { WindowState = FormWindowState.Minimized; } //Minimizes the application
         private void MainPage_Load(object sender, EventArgs e)
         {
-            //Theme
-            foreach (Control c in this.Controls) { Program.Theme(c); } //For each control found in the program this will apply its correct color
-            this.BackColor = Program.Background; //Sets the background color of the program
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            button1.BackColor = Program.Accent;
-            button2.BackColor = Program.Inactive;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            button1.BackColor = Program.Inactive;
-            button2.BackColor = Program.Accent;
+            Theme.Set(this); //This will theme the application
         }
     }
 }
