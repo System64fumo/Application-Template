@@ -1,10 +1,6 @@
-This template should help you to create good looking applications
-This is also the same UI used in WoR-CP
+This .NET application template helps you to create good looking applications, and is also the same UI used in the Windows on Raspberry control panel.
 
-i would like to see what you can create using this ui
-
-and please remember to give credit where credit is due
-
+If you use this or make a application with it, let me know! Just please put a link to this Github repo to give some credit!
 
 Dark mode :
 
