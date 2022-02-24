@@ -13,8 +13,9 @@ namespace Modern_Application
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Modern_Application.Theme.Read(); // Read the theme
-            Application.Run(new MainPage()); //Run the application
+            MainWindow Window = new MainWindow();
+            Theme.Initialize(Window); //Initialize the application
+            Application.Run(Window);  //Run the application
         }
        
     }
