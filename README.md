@@ -1,15 +1,25 @@
-This template should help you to create good looking applications
-This is also the same UI used in WoR-CP
-
-i would like to see what you can create using this ui
-
-and please remember to give credit where credit is due
-
+This application template contains a theme system that supports Lightmode and Darkmode
+It also contains tools and utilities that Winforms typically doesn't give you access to
 
 Dark mode :
 
-![Dark Mode](https://user-images.githubusercontent.com/72354122/121655166-12482800-caa7-11eb-9504-7157bf9791cd.png)
+![DarkMode](https://user-images.githubusercontent.com/72354122/155618104-d9af6832-5705-44a9-bb2e-db890a8b114c.png)
 
 Light mode :
 
-![Light Mode](https://user-images.githubusercontent.com/72354122/121655173-13795500-caa7-11eb-9f38-101e5c37f688.png)
+![LightMode](https://user-images.githubusercontent.com/72354122/155618109-b11aa732-c344-4262-8366-e906f1646bf3.png)
+
+The theme system contains a palette of colors:
+|Color name|  |Red|Green|Blue|
+Accent:         50, 50, 65
+BrightAccent:   60, 60, 75
+DarkAccent:     40, 40, 55
+Inactive:       30, 30, 35
+Background:     20, 20, 20
+Panel:          25, 25, 27
+BrightPanel:    35, 35, 40
+
+Examples:
+panel1.BackColor = Theme.Accent;
+panel2.BackColor = Theme.Panel;
+panel3.BackColor = Theme.Inactive;
